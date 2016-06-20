@@ -88,8 +88,7 @@
         make.top.equalTo(weakSelf.mas_top);
         make.left.equalTo(weakSelf.mas_left);
         make.right.equalTo(weakSelf.mas_right);
-        make.height.mas_equalTo(120
-                                );
+        make.height.mas_equalTo(120);
     }];
     [self.landingBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(weakSelf.mas_top).offset(50);
@@ -109,10 +108,10 @@
 - (void)landingBtnClick{
     NSLog(@"点击登陆");
     
-        SXTInputViewController  *inputViewVc = [[SXTInputViewController alloc]init];
+    SXTInputViewController  *inputViewVc = [[SXTInputViewController alloc]init];
 
     [self.viewer.navigationController pushViewController:inputViewVc animated:YES];
-    
+    NSLog(@"%@",self.viewer.navigationController);
 //    SXTinputView *inputView = [[SXTinputView alloc]init];
 
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040EFA1D1D178B57007790F7 /* SXTMineTableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 040EFA1C1D178B57007790F7 /* SXTMineTableObject.m */; };
+		040EFA201D178CDA007790F7 /* Mine_table.plist in Resources */ = {isa = PBXBuildFile; fileRef = 040EFA1F1D178CDA007790F7 /* Mine_table.plist */; };
+		040EFA231D179827007790F7 /* SXTMineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040EFA221D179827007790F7 /* SXTMineTableViewCell.m */; };
 		045537031D13E172008AFFFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045537021D13E172008AFFFF /* main.m */; };
 		0455370C1D13E172008AFFFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0455370A1D13E172008AFFFF /* Main.storyboard */; };
 		0455370E1D13E172008AFFFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0455370D1D13E172008AFFFF /* Images.xcassets */; };
@@ -46,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040EFA1B1D178B57007790F7 /* SXTMineTableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTMineTableObject.h; sourceTree = "<group>"; };
+		040EFA1C1D178B57007790F7 /* SXTMineTableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTMineTableObject.m; sourceTree = "<group>"; };
+		040EFA1F1D178CDA007790F7 /* Mine_table.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mine_table.plist; sourceTree = "<group>"; };
+		040EFA211D179827007790F7 /* SXTMineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTMineTableViewCell.h; sourceTree = "<group>"; };
+		040EFA221D179827007790F7 /* SXTMineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTMineTableViewCell.m; sourceTree = "<group>"; };
 		045536FD1D13E172008AFFFF /* 01_Text_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_Text_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045537011D13E172008AFFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045537021D13E172008AFFFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -122,6 +130,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040EFA181D177FCC007790F7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				040EFA1B1D178B57007790F7 /* SXTMineTableObject.h */,
+				040EFA1C1D178B57007790F7 /* SXTMineTableObject.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		040EFA191D177FD8007790F7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0455372D1D13E2D9008AFFFF /* SXTinputView.h */,
+				0455372E1D13E2D9008AFFFF /* SXTinputView.m */,
+				045537311D13E2D9008AFFFF /* SXTMineLoginView.h */,
+				045537321D13E2D9008AFFFF /* SXTMineLoginView.m */,
+				040EFA211D179827007790F7 /* SXTMineTableViewCell.h */,
+				040EFA221D179827007790F7 /* SXTMineTableViewCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		040EFA1A1D177FE0007790F7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0455372B1D13E2D9008AFFFF /* SXTForeViewController.h */,
+				0455372C1D13E2D9008AFFFF /* SXTForeViewController.m */,
+				0455372F1D13E2D9008AFFFF /* SXTInputViewController.h */,
+				045537301D13E2D9008AFFFF /* SXTInputViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		040EFA1E1D178C90007790F7 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				040EFA1F1D178CDA007790F7 /* Mine_table.plist */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
 		045536F41D13E172008AFFFF = {
 			isa = PBXGroup;
 			children = (
@@ -242,14 +291,10 @@
 		0455376D1D13E3AC008AFFFF /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
-				0455372B1D13E2D9008AFFFF /* SXTForeViewController.h */,
-				0455372C1D13E2D9008AFFFF /* SXTForeViewController.m */,
-				0455372D1D13E2D9008AFFFF /* SXTinputView.h */,
-				0455372E1D13E2D9008AFFFF /* SXTinputView.m */,
-				0455372F1D13E2D9008AFFFF /* SXTInputViewController.h */,
-				045537301D13E2D9008AFFFF /* SXTInputViewController.m */,
-				045537311D13E2D9008AFFFF /* SXTMineLoginView.h */,
-				045537321D13E2D9008AFFFF /* SXTMineLoginView.m */,
+				040EFA181D177FCC007790F7 /* model */,
+				040EFA191D177FD8007790F7 /* view */,
+				040EFA1A1D177FE0007790F7 /* controller */,
+				040EFA1E1D178C90007790F7 /* other */,
 			);
 			name = "我的";
 			sourceTree = "<group>";
@@ -360,6 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040EFA201D178CDA007790F7 /* Mine_table.plist in Resources */,
 				0455370C1D13E172008AFFFF /* Main.storyboard in Resources */,
 				045537111D13E172008AFFFF /* LaunchScreen.xib in Resources */,
 				045537451D13E2D9008AFFFF /* SXTTabBarControllers.plist in Resources */,
@@ -396,7 +442,9 @@
 				045537641D13E319008AFFFF /* MASConstraintMaker.m in Sources */,
 				045537281D13E1A1008AFFFF /* AppDelegate.m in Sources */,
 				045537441D13E2D9008AFFFF /* SXTTabBarController.m in Sources */,
+				040EFA231D179827007790F7 /* SXTMineTableViewCell.m in Sources */,
 				045537401D13E2D9008AFFFF /* SXTInputViewController.m in Sources */,
+				040EFA1D1D178B57007790F7 /* SXTMineTableObject.m in Sources */,
 				0455373F1D13E2D9008AFFFF /* SXTinputView.m in Sources */,
 				045537681D13E319008AFFFF /* NSArray+MASAdditions.m in Sources */,
 				045537661D13E319008AFFFF /* MASViewAttribute.m in Sources */,
@@ -596,6 +644,7 @@
 				045537221D13E172008AFFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		045537231D13E172008AFFFF /* Build configuration list for PBXNativeTarget "01_Text_ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +653,7 @@
 				045537251D13E172008AFFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

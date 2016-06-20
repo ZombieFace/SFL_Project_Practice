@@ -10,4 +10,8 @@
 
 @interface SXTinputView : UIView
 
+/**  */
+@property (nonatomic, strong) UIViewController *viewer;
+
+
 @end
