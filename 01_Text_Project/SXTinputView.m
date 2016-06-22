@@ -87,7 +87,7 @@
        
         make.top.equalTo(weakSelf.landingBtn.mas_bottom).offset(20);
         make.right.equalTo(weakSelf.mas_right).offset(-15);
-        make.width.mas_equalTo(70);
+        make.width.mas_equalTo(80);
         make.height.mas_equalTo(20);
     }];
     
@@ -143,6 +143,7 @@
         _landingBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_landingBtn setTitle:@"登录" forState:UIControlStateNormal];
         [_landingBtn addTarget:self action:@selector(landingBtnClick) forControlEvents:UIControlEventTouchUpInside];
+        _landingBtn.backgroundColor = [UIColor blueColor];
         
     }
     return _landingBtn;
@@ -153,6 +154,7 @@
         _loginBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_loginBtn setTitle:@"免费注册" forState:UIControlStateNormal];
         [_loginBtn addTarget:self action:@selector(loginBtnClick) forControlEvents:UIControlEventTouchUpInside];
+        [_loginBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     }
     return _loginBtn;
 }

@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040D85221D19743400B4360B /* SXTInputBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D85211D19743400B4360B /* SXTInputBottomView.m */; };
 		040EFA1D1D178B57007790F7 /* SXTMineTableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 040EFA1C1D178B57007790F7 /* SXTMineTableObject.m */; };
 		040EFA201D178CDA007790F7 /* Mine_table.plist in Resources */ = {isa = PBXBuildFile; fileRef = 040EFA1F1D178CDA007790F7 /* Mine_table.plist */; };
 		040EFA231D179827007790F7 /* SXTMineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040EFA221D179827007790F7 /* SXTMineTableViewCell.m */; };
+		044E5EB11D1A1DE4006A97E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044E5EB01D1A1DE4006A97E2 /* Assets.xcassets */; };
 		045537031D13E172008AFFFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045537021D13E172008AFFFF /* main.m */; };
 		0455370C1D13E172008AFFFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0455370A1D13E172008AFFFF /* Main.storyboard */; };
-		0455370E1D13E172008AFFFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0455370D1D13E172008AFFFF /* Images.xcassets */; };
 		045537111D13E172008AFFFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0455370F1D13E172008AFFFF /* LaunchScreen.xib */; };
 		0455371D1D13E172008AFFFF /* _1_Text_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455371C1D13E172008AFFFF /* _1_Text_ProjectTests.m */; };
 		045537281D13E1A1008AFFFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045537271D13E1A1008AFFFF /* AppDelegate.m */; };
@@ -49,16 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040D85201D19743400B4360B /* SXTInputBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTInputBottomView.h; sourceTree = "<group>"; };
+		040D85211D19743400B4360B /* SXTInputBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTInputBottomView.m; sourceTree = "<group>"; };
 		040EFA1B1D178B57007790F7 /* SXTMineTableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTMineTableObject.h; sourceTree = "<group>"; };
 		040EFA1C1D178B57007790F7 /* SXTMineTableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTMineTableObject.m; sourceTree = "<group>"; };
 		040EFA1F1D178CDA007790F7 /* Mine_table.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mine_table.plist; sourceTree = "<group>"; };
 		040EFA211D179827007790F7 /* SXTMineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTMineTableViewCell.h; sourceTree = "<group>"; };
 		040EFA221D179827007790F7 /* SXTMineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTMineTableViewCell.m; sourceTree = "<group>"; };
+		044E5EB01D1A1DE4006A97E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045536FD1D13E172008AFFFF /* 01_Text_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_Text_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045537011D13E172008AFFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045537021D13E172008AFFFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0455370B1D13E172008AFFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0455370D1D13E172008AFFFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		045537101D13E172008AFFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		045537161D13E172008AFFFF /* 01_Text_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_Text_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0455371B1D13E172008AFFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,7 +133,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		040EFA181D177FCC007790F7 /* model */ = {
+		040D85151D19715500B4360B /* 我的_界面 */ = {
+			isa = PBXGroup;
+			children = (
+				040D851B1D1972C600B4360B /* controller */,
+				040D85191D19723500B4360B /* model */,
+				040D851A1D19724E00B4360B /* view */,
+				040EFA1E1D178C90007790F7 /* other */,
+			);
+			name = "我的_界面";
+			sourceTree = "<group>";
+		};
+		040D85161D19716A00B4360B /* 登陆 */ = {
+			isa = PBXGroup;
+			children = (
+				040D851F1D1973B700B4360B /* model */,
+				040D851D1D19737C00B4360B /* controller */,
+				040D851E1D19739200B4360B /* view */,
+				040D851C1D19736E00B4360B /* other */,
+			);
+			name = "登陆";
+			sourceTree = "<group>";
+		};
+		040D85171D19719900B4360B /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "注册";
+			sourceTree = "<group>";
+		};
+		040D85181D1971A200B4360B /* 验证 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "验证";
+			sourceTree = "<group>";
+		};
+		040D85191D19723500B4360B /* model */ = {
 			isa = PBXGroup;
 			children = (
 				040EFA1B1D178B57007790F7 /* SXTMineTableObject.h */,
@@ -139,11 +178,9 @@
 			name = model;
 			sourceTree = "<group>";
 		};
-		040EFA191D177FD8007790F7 /* view */ = {
+		040D851A1D19724E00B4360B /* view */ = {
 			isa = PBXGroup;
 			children = (
-				0455372D1D13E2D9008AFFFF /* SXTinputView.h */,
-				0455372E1D13E2D9008AFFFF /* SXTinputView.m */,
 				045537311D13E2D9008AFFFF /* SXTMineLoginView.h */,
 				045537321D13E2D9008AFFFF /* SXTMineLoginView.m */,
 				040EFA211D179827007790F7 /* SXTMineTableViewCell.h */,
@@ -152,15 +189,47 @@
 			name = view;
 			sourceTree = "<group>";
 		};
-		040EFA1A1D177FE0007790F7 /* controller */ = {
+		040D851B1D1972C600B4360B /* controller */ = {
 			isa = PBXGroup;
 			children = (
 				0455372B1D13E2D9008AFFFF /* SXTForeViewController.h */,
 				0455372C1D13E2D9008AFFFF /* SXTForeViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		040D851C1D19736E00B4360B /* other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		040D851D1D19737C00B4360B /* controller */ = {
+			isa = PBXGroup;
+			children = (
 				0455372F1D13E2D9008AFFFF /* SXTInputViewController.h */,
 				045537301D13E2D9008AFFFF /* SXTInputViewController.m */,
 			);
 			name = controller;
+			sourceTree = "<group>";
+		};
+		040D851E1D19739200B4360B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0455372D1D13E2D9008AFFFF /* SXTinputView.h */,
+				0455372E1D13E2D9008AFFFF /* SXTinputView.m */,
+				040D85201D19743400B4360B /* SXTInputBottomView.h */,
+				040D85211D19743400B4360B /* SXTInputBottomView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		040D851F1D1973B700B4360B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 		040EFA1E1D178C90007790F7 /* other */ = {
@@ -208,7 +277,7 @@
 			children = (
 				0455370A1D13E172008AFFFF /* Main.storyboard */,
 				0455370F1D13E172008AFFFF /* LaunchScreen.xib */,
-				0455370D1D13E172008AFFFF /* Images.xcassets */,
+				044E5EB01D1A1DE4006A97E2 /* Assets.xcassets */,
 				045537011D13E172008AFFFF /* Info.plist */,
 				045537021D13E172008AFFFF /* main.m */,
 			);
@@ -291,10 +360,10 @@
 		0455376D1D13E3AC008AFFFF /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
-				040EFA181D177FCC007790F7 /* model */,
-				040EFA191D177FD8007790F7 /* view */,
-				040EFA1A1D177FE0007790F7 /* controller */,
-				040EFA1E1D178C90007790F7 /* other */,
+				040D85151D19715500B4360B /* 我的_界面 */,
+				040D85161D19716A00B4360B /* 登陆 */,
+				040D85181D1971A200B4360B /* 验证 */,
+				040D85171D19719900B4360B /* 注册 */,
 			);
 			name = "我的";
 			sourceTree = "<group>";
@@ -369,7 +438,7 @@
 		045536F51D13E172008AFFFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = bjsxt;
 				TargetAttributes = {
 					045536FC1D13E172008AFFFF = {
@@ -409,7 +478,7 @@
 				0455370C1D13E172008AFFFF /* Main.storyboard in Resources */,
 				045537111D13E172008AFFFF /* LaunchScreen.xib in Resources */,
 				045537451D13E2D9008AFFFF /* SXTTabBarControllers.plist in Resources */,
-				0455370E1D13E172008AFFFF /* Images.xcassets in Resources */,
+				044E5EB11D1A1DE4006A97E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +518,7 @@
 				045537681D13E319008AFFFF /* NSArray+MASAdditions.m in Sources */,
 				045537661D13E319008AFFFF /* MASViewAttribute.m in Sources */,
 				045537411D13E2D9008AFFFF /* SXTMineLoginView.m in Sources */,
+				040D85221D19743400B4360B /* SXTInputBottomView.m in Sources */,
 				045537631D13E319008AFFFF /* MASConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +582,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -577,6 +648,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 01_Text_Project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjsxt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -587,6 +659,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 01_Text_Project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjsxt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -605,6 +678,7 @@
 				);
 				INFOPLIST_FILE = 01_Text_ProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjsxt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01_Text_Project.app/01_Text_Project";
 			};
@@ -620,6 +694,7 @@
 				);
 				INFOPLIST_FILE = 01_Text_ProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjsxt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01_Text_Project.app/01_Text_Project";
 			};

@@ -8,8 +8,15 @@
 
 #import "SXTInputViewController.h"
 #import "SXTinputView.h"
+#import "SXTInputBottomView.h"
+#import "PrefixHeader.pch"
+
+#define kViewWidth [UIScreen mainScreen].bounds.size.width
 
 @interface SXTInputViewController ()
+
+//@property (nonatomic, strong) SXTinputView *inputView;
+//@property (nonatomic, strong) SXTInputBottomView *bottomView;
 
 @end
 
@@ -17,15 +24,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    SXTinputView *inputView = [[SXTinputView alloc] initWithFrame:self.view.frame];
+    self.view.backgroundColor = [UIColor whiteColor];
+    SXTinputView *inputView = [[SXTinputView alloc] initWithFrame:CGRectMake(0, 0, kViewWidth, 180)];
     [self.view addSubview:inputView];
+    
+    SXTInputBottomView *bottomView = [[SXTInputBottomView alloc] initWithFrame:CGRectMake(0, 180, kViewWidth, 150)];
+    [self.view addSubview:bottomView];
 }
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
+
+
 
 /*
 #pragma mark - Navigation
