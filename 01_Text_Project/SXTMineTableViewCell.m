@@ -50,8 +50,7 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         [self.contentView addSubview:self.titleLab];
-        [self.contentView addSubview:self.iconView];
-        
+        [self.contentView addSubview:self.iconView];        
     }
     return self;
 }

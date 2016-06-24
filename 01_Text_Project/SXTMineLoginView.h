@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^loginBlock) ();
+typedef void(^landingBlock) ();
+
 @interface SXTMineLoginView : UIView
 
-@property(strong,nonatomic)UIViewController *viewer;
+@property(copy,nonatomic)landingBlock landingBlock;
+@property(copy,nonatomic)loginBlock loginBlock;
 
 
 

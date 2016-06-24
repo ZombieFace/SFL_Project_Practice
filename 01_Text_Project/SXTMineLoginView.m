@@ -74,11 +74,7 @@
     }
     return _loginBtn;
 }
-- (void)setViewer:(UIViewController *)viewcontroller{
-    
-    
-    _viewer = viewcontroller;
-}
+
 
 - (void)layoutSubviews{
     [super layoutSubviews];
@@ -106,18 +102,15 @@
 #pragma mark -
 #pragma mark Button点击事件
 - (void)landingBtnClick{
-    NSLog(@"点击登陆");
-    
-    SXTInputViewController  *inputViewVc = [[SXTInputViewController alloc]init];
-
-    [self.viewer.navigationController pushViewController:inputViewVc animated:YES];
-    NSLog(@"%@",self.viewer.navigationController);
-//    SXTinputView *inputView = [[SXTinputView alloc]init];
-
+    if (_landingBlock) {
+        _landingBlock();
+    }
 }
 
 - (void)loginBtnClick{
-    NSLog(@"点击注册");
+    if (_loginBlock) {
+        _loginBlock();
+    }
 }
 
 

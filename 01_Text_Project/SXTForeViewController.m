@@ -50,7 +50,6 @@ static NSString *cellID = @"cellID";
         
         SXTMineLoginView *headerView = [[SXTMineLoginView alloc] init];
         headerView.frame = CGRectMake(0, 0, 0, 120);
-        headerView.viewer = self;
         _tableView.tableHeaderView = headerView;
     }
     return _tableView;
